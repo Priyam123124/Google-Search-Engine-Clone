@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="google icon.webp">
+    <!-- Title of the document -->
+    <title>Google - Search Results</title>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div class="navBar">
+        <!-- Sign-in Button -->
+        <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&hl=en&ifkv=AaSxoQz7xorVHJD9T7kT3TAj7hCZ0TWAl8co1YVnXR96KcZFKgu7UYLrrh17VaMlI60Z6VjPeang_w&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S251943012%3A1714735821398123&theme=mn&ddm=0">
+            <div class="margin"><input type="button" class='signin' value="Sign in"></div>
+        </a>
+        <!-- Other Navigation Links -->
+        <p class="margin" style="font-size: 14px;">Images</p>
+        <p class="margin" style="font-size: 14px;"><a href="https://www.google.com/gmail/about/" target="_blank">Gmail</a></p>
+    </div>
+
+    <!-- Logo and Search Bar Section -->
+    <div style="display: flex; margin-left: 40px; align-items: center;">
+        <!-- Google Logo -->
+        <img class="logo logo1" src="Logo.png" alt="Google" width="100px" style="position: relative; top: 11px;">
+        <!-- Search Bar -->
+        <div class="searchbarbox searchbarbox1" style="margin-left: 13px;">
+            <div><img src="search_icon.svg" class="sticky" alt="Search"></div>
+            <input type="text" id="id22" class="searchbar">
+            <div><img src="vs.png" alt="Search By Voice" width="15px" style="margin-left: 14px;"></div>
+            <div><img src="is.webp" alt="Search By Image" width="25px" style="margin-left: 25px;"></div>
+        </div>
+    </div>
+
+    <!-- Placeholder for search results -->
+    <div id="id1"></div>
+</body>
+
+<!-- Link to external JavaScript file -->
+<script src="result.js"></script>
+
+</html>

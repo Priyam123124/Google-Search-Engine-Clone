@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
+    <link rel="icon" href="google icon.webp">
+    <title>Google</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navBar">
+        <!-- Sign-in Button -->
+        <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&hl=en&ifkv=AaSxoQz7xorVHJD9T7kT3TAj7hCZ0TWAl8co1YVnXR96KcZFKgu7UYLrrh17VaMlI60Z6VjPeang_w&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S251943012%3A1714735821398123&theme=mn&ddm=0">
+            <div class="margin">
+                <input type="button" class ='signin' value="Sign in">
+            </div>
+        </a>
+        <!-- Other Navigation Links -->
+        <p class="margin" style="font-size: 14px;">Images</p>
+        <p class="margin" style="font-size: 14px;"><a href="https://www.google.com/gmail/about/" target="_blank">Gmail</a></p>
+    </div>
+
+    <!-- Main Content -->
+    <div class="maincontent">
+        <!-- Google Logo -->
+        <img class="logo" src="Logo.png" alt="Google" width="272px" style="margin-top: 5px;">
+
+        <!-- Search Bar -->
+        <div class="searchbarbox">
+            <div><img src="search_icon.svg" class="sticky" alt="Search"></div>
+            <input type="text" id="id2" class="searchbar">
+            <div><img src="vs.png" alt="Search By Voice" width="15px" style="margin-left: 14px;"></div>
+            <div><img src="is.webp" alt="Search By Image" width="25px" style="margin-left: 25px;"></div>
+        </div>
+
+        <!-- Buttons -->
+        <div style="display: flex; margin-top: 35px;">
+            <input type="button" id="buttonclick" class="two_button" value="Google Search">
+            <input type="button" class="two_button" value="I'm Feeling Lucky" style="margin-left: 12px;">
+        </div>
+
+        <!-- Language Options -->
+        <div class="lang" style="display: flex; margin-top: 35px;">
+            <p>Google offered in:</p>
+            <p style="margin-left: 7px; color: #1a0dab">हिन्दी বাংলা తెలుగు मराठी தமிழ் ગુજરાતી ಕನ್ನಡ മലയാളം ਪੰਜਾਬੀ</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer style="background-color: #f2f2f2; height: 17vh;">
+        <!-- Footer Sections -->
+        <div style="border-bottom: 1px solid #dadce0;" class="footer"><p style="margin-left: 30px;">India</p></div>
+        <div>
+            <!-- Left Footer Links -->
+            <ul class="footermargintop" style="float: left; margin-left: 2px;">
+                <li>About</li>
+                <li>Advertising</li>
+                <li>Business</li>
+                <li>How Search Works</li>
+            </ul>
+            <!-- Right Footer Links -->
+            <ul class="footermargintop" style="float: right; margin-right: 44px;">
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Settings</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="index.js"></script> <!-- Link to external JavaScript file -->
+</html>
