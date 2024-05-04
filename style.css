@@ -124,6 +124,9 @@ li {
     .lang {
         font-size: 2vw;
     }
+    .searchbar1{
+        width: 22vw;
+    }
 }
 
 /* Link styles */
